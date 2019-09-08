@@ -12,8 +12,8 @@ h2, p, a {
 }
 
 .test {
-    width:32px;
-    height:32px;
+    width:32;
+    height:32;
     cursor:url('bluepurplecursor.png'), auto;
 }
 
