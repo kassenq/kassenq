@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
 html, body {
-    font-family: "Nunito Sans", sans-serif; 
+    font-family: 'Anaheim', sans-serif;
     font-weight: 400; 
-    background-color: #b9f5a9;
+    background-color: #caf5e3;
     text-align: center;
 }
 
 h2, p, a {
-    font-family: "Nunito Sans", sans-serif; 
+    font-family: 'Anaheim', sans-serif;
     font-weight: 400; 
 }
 
