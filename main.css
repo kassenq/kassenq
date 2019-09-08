@@ -6,4 +6,9 @@ html, body {
     text-align: center;
 }
 
+h2, p, a {
+    font-family: "Nunito Sans", sans-serif; 
+    font-weight: 400; 
+}
+
 
