@@ -17,7 +17,7 @@ h2, p, a {
     cursor:url('bluepurplecursor.png'), auto;
 }
 
-a:link {
+a:link, a:visited, a:active {
     color: rgb(211, 161, 161); 
 }
 a:hover {
