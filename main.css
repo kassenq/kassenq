@@ -7,17 +7,19 @@ html, body {
     cursor: url(https://image.flaticon.com/icons/png/128/99/99181.png), 10 10, pointer;
 }
 
-h2, p, a {
-    font-family: 'Anaheim', sans-serif;
-    font-weight: 400; 
-}
-
-h2 {
-    animation: type 3s setps(14);
+/*
+.animate {
+    animation: type 5s setps(14);
     overflow: hidden;
     white-space:nowrap;
     border-right:4px solid black;
     width:14ch;
+}
+*/
+
+h2, p, a {
+    font-family: 'Anaheim', sans-serif;
+    font-weight: 400; 
 }
 
 @keyframes type {

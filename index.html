@@ -9,11 +9,26 @@
         @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
         </style> -->
     </head>
-<body>
+<body onload=typeWriter();>
 
 <br><br><br>
-<h2>hi! i'm kassen.</h2>
-<p>i'm a duke student from colorado.</p>
+<h2 id="demo"></h2>
+    
+<script>
+    var i = 0;
+    var txt = "hi! i'm kassen.";
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+</script>
+    
+<p id="demo">i'm a duke student from colorado.</p>
 <br>
 
 <p>my code lives in:</p>
